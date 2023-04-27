@@ -1,0 +1,183 @@
+/* CSS Document */
+
+
+
+
+
+/* Slideshow container */
+#slideshow_container {
+
+     height: 15em;
+    color: #5f5f5f;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    cursor: pointer;
+    /* border: 2px solid rgb(221 10 10 / 0%); */
+    overflow: hidden;
+
+    box-sizing: border-box;
+    display: block;
+    top: 0;
+    bottom: 0;
+    position: relative;
+
+}
+
+
+* {box-sizing: border-box;}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.5em;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.mySlides {
+    height: max-content;
+	    line-height: 150%;
+    display: block;
+    width: 100%;
+    padding: 1%;
+box-sizing: border-box;
+
+}
+
+.slide_content {
+    width: 100%;
+    overflow: hidden;
+    /* height: 20
+vw
+; */
+    /* vertical-align: middle; */
+    margin: auto;
+    display: inline-block;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+}
+.video_slide{
+/*width: 20em; */
+    max-height: 10em;
+	max-width:24%;
+    margin: auto;
+    object-fit: cover;
+    cursor: pointer;
+    padding: 1%;
+    /* aspect-ratio: auto; */
+    box-sizing: inherit;
+
+}
+.vidSlide{
+display:flex;
+
+
+}
+
+.hashtag_slide{
+
+}
+.HashTag_content{
+
+margin: auto;
+
+}
+
+.user_slide{
+    overflow: hidden;
+    margin: 1%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1%;
+    border: 2px solid rgb(152 152 152 / 78%);
+height: 15vw;
+    width: 15vw;
+box-sizing: border-box;
+
+}
+/* Next & previous buttons */
+.prev, .next {
+position: absolute;
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px;}
+}
+
+
+#contactusFB{
+font-size:2em;
+font-weight:700;
+padding:2em;
+
+
+}
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
