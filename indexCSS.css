@@ -1,0 +1,115 @@
+/* CSS Document */
+
+
+
+body{	
+
+margin: 0;  overflow-x: hidden;
+	width:100%;
+  scrollbar-width: none;
+	
+	}
+
+#addvideobtn{
+      position: fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 50px;
+    /* height: 1em; */
+width: auto;
+    /* text-align: center; */
+    z-index: 10;
+    margin: auto;
+	border:none;
+    color: #808080;
+    cursor: pointer;
+	    box-sizing: content-box;
+background-color: #00000000;
+}
+
+#checkMSGbtn{
+      position: fixed;
+    bottom: 15%;
+    right: 2%;
+    font-size: 50px;
+    /* height: 1em; */
+width: auto;
+    /* text-align: center; */
+    z-index: 10;
+    margin: auto;
+	border:none;
+    color: #808080;
+    cursor: pointer;
+	    box-sizing: content-box;
+background-color: #00000000;
+display:none;
+}
+
+#page_container{
+width: 100%;
+    min-height: 900px;
+    margin: 10% auto auto;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+	max-width: 1200px;
+
+}
+
+
+#feedtop{
+    display: flex;
+    padding: 3%;
+    width: max-content;
+    margin: auto;
+}
+
+.feedbtn{
+color:#999999;
+background-color:#000000;
+border:none;
+font-size:150%;
+cursor:pointer;
+
+
+
+}
+
+ @media only screen and (max-height: 500px) {
+  #header {
+  		    display: none !important;
+			}
+			
+  #left_side_container{
+display: none !important;
+width: 0%  !important;
+}
+  #right_side_container{
+display: none !important;
+width: 0%  !important;
+  }
+  #center_container {
+  		
+width: 100%  !important;
+      margin: 0 !important;
+
+  }
+  
+  video_player {
+  height: 100vh; !important;
+ 
+  
+  
+  }
+  
+    section{
+
+	scroll-snap-align: end  !important;
+
+}
+
+
+  
+}
+ 
