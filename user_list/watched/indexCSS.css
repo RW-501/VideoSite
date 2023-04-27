@@ -1,0 +1,276 @@
+/* CSS Document */
+
+
+
+body{
+    position: absolute;
+margin: 0; height: 100%; overflow: auto;
+	width:100%;
+    background-color: #000000;
+}
+
+
+
+#page_container{
+width: 100%;
+    margin: 10% auto auto;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+	max-width: 1200px;
+}
+#spacer_container {
+		width: 98%;	
+	 margin: auto;
+
+}
+@media only screen and (max-width: 1942px)
+#spacer_container {
+    margin-top: 70%;
+}
+}
+
+
+#center_container{
+	width: 98%;	
+	 margin: auto;
+	 margin-bottom:50%;
+
+		/*Mmin-width: 800px; */
+}
+
+
+
+
+.btn {
+    border: 2px solid rgb(48 48 48);
+     color: rgb(0 0 0);
+    background-color: #736f6f;
+    padding: 3% 20%;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    right: 0;
+    position: relative;
+    left: 0;
+    display: block;
+    overflow: hidden;
+	padding: 2%;
+    margin-top: 2%;
+	cursor:pointer;
+}
+
+
+
+
+.user_bottom_containers{
+
+
+}
+
+#back_btn {
+    font-size: 130%;
+    font-weight: 700;
+    color: #999999;
+    cursor: pointer;
+    margin: 2%;
+    padding: 3%;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+#list_title{
+    margin: auto;
+    width: 95%;
+font-size:2em;
+padding:2px;
+text-align:center;
+    color: #999999;
+	display:block;
+	   font-weight: 300;
+
+
+}
+
+
+
+
+#scrollupbtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #999999;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.userVideoArea{
+    border: 1px solid;
+    border-color: #dadddf;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    border-radius: 0.5em;
+    overflow: hidden;
+    padding: 2em;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-bottom: 2%;
+	    max-height: 30%;
+}
+
+
+.videoArea{
+width:50%;
+display: grid;
+}
+
+.videoInfoArea{
+width:50%;
+display: grid;
+color:#CCCCCC;
+word-break: break-word;
+}
+
+
+
+
+.video_delete{
+margin: auto;
+    width: 50%;
+    padding: 2%;
+    margin-top: 2%;
+    background-color: #6495ed00;
+    color: #a5a3a2;
+    border: 1px solid;
+    border-color: #dadddf;
+
+	cursor: pointer;
+
+}
+.video_title{
+font-size:1em;
+padding:.5em;
+	cursor: pointer;
+	
+
+}
+
+
+.video_date{
+    text-align: end;
+	}
+.video_votes{
+    text-align: end;
+}
+.video_views{
+    text-align: end;
+}
+
+.video_edit{
+width:30%;
+margin:auto;
+    padding: 2%;
+		cursor: pointer;
+		margin: auto;
+
+    padding: 2%;
+    margin-top: 2%;
+    background-color: #6495ed00;
+    color: #a5a3a2;
+    border: 1px solid;
+    border-color: #dadddf;
+	display:none;
+}
+
+
+
+
+
+
+.video_player{
+    margin: auto;
+
+	text-align: center;
+  left: 0; right: 0; 
+      width: 100%;
+object-fit: contain !important;
+  border: 2px solid rgb(255 255 255 / 0%);
+overflow:hidden;
+      box-sizing: border-box;
+	      max-height: 300px;
+		  cursor:pointer;
+
+	  /*
+	  
+	      margin: auto;
+
+	text-align: center;
+  left: 0; right: 0; 
+      width: 100%;
+object-fit: cover !important;
+  border: 2px solid rgb(255 255 255 / 0%);
+overflow:hidden;
+  border-radius: 2%;
+      box-sizing: border-box;
+	  
+	  
+	  */
+	  
+	  
+	  /*       margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: contain;
+    border: 2px solid rgb(255 255 255 / 0%);
+    overflow: hidden;
+    border-radius: 2%;
+    box-sizing: border-box;
+    max-height: 500px;
+    
+    width: inherit;
+    align-content: center;
+    display: block;
+	*/
+	  
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+
+
+#addvideobtn{
+
+
+font-size: 3em;
+    padding: 2%;
+    z-index: 100;
+    /* background-color: burlywood; */
+    /* border-radius: 100%; */
+    width: 100;
+    color: #aaafb3;
+    margin: auto;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+
+}
+
+
+
