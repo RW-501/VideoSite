@@ -1,0 +1,289 @@
+/* CSS Document */
+
+
+
+body{
+    position: absolute;
+margin: 0; height: 100%; overflow: auto;
+	width:100%;
+    background-color: #000000;
+}
+
+
+
+#page_container{
+width: 100%;
+    height: 100%;
+    margin: 10% auto auto;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+	max-width: 1200px;
+}
+#spacer_container {
+		width: 98%;	
+	 margin: auto;
+
+}
+@media only screen and (max-width: 1942px)
+#spacer_container {
+    margin-top: 70%;
+}
+}
+
+
+#center_container{
+	width: 98%;	
+	 margin: auto;
+	 margin-bottom:50%;
+
+		/*Mmin-width: 800px; */
+}
+
+#main_area_wrap{
+display: none;
+    margin: auto;
+    height: 60%;
+    width: 100%;
+
+}
+
+#video_setup{
+text-align: center;
+    margin: auto;
+    width: 90%;
+    position: inherit;
+	display:none;
+
+}
+
+#videoTitle{
+width: 90%;
+    margin: 2% auto;
+    text-align: left;
+    padding: 2%;
+    background-color: #98909052;
+    left: 0;
+    right: 0;
+    position: inherit;
+	font-size: 20px;
+	color:#FFFFFF;
+}
+
+#playertext{
+
+margin: auto;
+    left: 0;
+    right: 0;
+    color: white;
+    position: relative;
+    top: 0;
+    height: 90%;
+    font-size: 1.5em;
+	padding: 3%;
+}
+
+#videoPreview{
+      margin: auto;
+    /* left: 0; */
+    /* right: 0; */
+    display: none;
+    width: 40%;
+    /* top: 2%; */
+    /* max-height: 75% !important; */
+}
+
+
+
+
+
+#tn_btn{
+width: 80%;
+    border: 2px solid rgb(208 208 208);
+    color: rgb(208 208 208);
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    right: 0;
+    position: relative;
+    left: 0;
+    display: block;
+}
+
+
+#upload-btn-wrapper {
+    width: 90%;
+    /* left: 0; */
+    /* right: 0; */
+    /* position: inherit; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.btn {
+    border: 2px solid rgb(48 48 48);
+     color: rgb(0 0 0);
+    background-color: #736f6f;
+    padding: 3% 20%;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    right: 0;
+    position: relative;
+    left: 0;
+    display: block;
+    overflow: hidden;
+	padding: 2%;
+    margin-top: 2%;
+	cursor:pointer;
+}
+
+#mainbtn{
+
+    color: rgb(255 255 255);
+
+
+    margin: auto;
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#username{
+color: rgb(255 255 255);
+    background-color: #ffffff00;
+    font-size: 1.0em;
+     width: 90%; 
+    margin: auto;
+    /* padding: 2%; */
+    left: 0;
+    right: 0;
+    bottom: 35%;
+    position: absolute;
+    text-align: center;
+}
+
+#joinBtn{
+color: rgb(255 255 255);
+    background-color: #ffffff00;
+    color: rgb(255 255 255);
+    font-size: 1.0em;
+    /* display: flex; */
+    width: 70%;
+    /* border: none; */
+    bottom: 20%;
+	     position: absolute;
+
+}
+
+#screen{
+
+    margin: auto;
+    /* padding: 2%; */
+    left: 0;
+    right: 0;
+    /* bottom: 35%; */
+    top: 10%;
+    /* padding: 10%; */
+ 
+padding: 10%; 
+}
+#video_info{
+display: grid;
+    margin-top: 40%;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    /* padding: 2%; */
+    left: 0;
+    right: 0;
+    padding: 2%;
+    color: grey;
+}
+
+#video_info > div{
+display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+#video_info .raidobtn{
+  height: 25px;
+  width: 25px;
+
+
+}
+
+#tt{
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+
+#upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+    margin: auto;
+}
+
+
+#ul_button_wrap{
+    height: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+
+#ul_button_wrap1{
+
+       left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    margin: auto;
+    height: 60%;
+    position: relative;
+    width: 100%;
+	}
+
+#up_bt_under_text{
+text-align: center;
+    margin: auto;
+    color: white;
+    word-break: break-word;
+    padding: 10%;
+	padding-top:5%;
+
+}
+
+#upload_btn{
+color: #ffffff;
+display:none;
+
+
+}
+
+#canvas{
+height: 20%;
+    width: 20%;
+    position: absolute;
+    object-fit: scale-down;
+	display:none;
+
+}
+

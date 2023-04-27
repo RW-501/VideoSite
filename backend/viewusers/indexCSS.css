@@ -1,0 +1,416 @@
+/* CSS Document */
+
+
+
+body{
+    position: absolute;
+margin: 0; height: 100%; overflow: hidden;
+	width:100%;
+	overflow:auto !important;
+}
+
+
+
+
+#page_container{
+width: 100%;
+    min-height: 900px;
+    margin: 10% auto auto;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+	max-width: 1200px;
+}
+
+
+
+
+
+
+#text{
+text-align: center;
+    color: #999999;
+    /* margin: auto; */
+    /* width: 70%; */
+    /* left: 0; */
+    /* right: 0; */
+    /* margin-top: 2%; */
+    font-size: 1.30em;
+    padding: 3%;
+
+}
+
+
+
+.userArea{
+    border: 1px solid;
+    border-color: #dadddf;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    border-radius: 0.5em;
+    overflow: hidden;
+    padding: 2em;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+
+.userInfoArea{
+width:50%;
+display: grid;
+}
+
+.deleteBtnArea{
+width:50%;
+display: grid;
+color:#CCCCCC;
+
+}
+
+
+.deletebtn{
+margin: auto;
+    width: 50%;
+    padding: 2%;
+    background-color: #6495ed00;
+    color: #a5a3a2;
+    border: 1px solid;
+    border-color: #dadddf;
+    margin: 10%;
+	cursor: pointer;
+    direction: rtl;
+
+}
+.userName{
+font-size:1em;
+padding:.5em;
+	text-align: center;
+    color: #a5a3a2;
+
+}
+
+
+
+
+
+
+.u_photos{
+    margin: auto;
+
+	text-align: center;
+  left: 0; right: 0; 
+      width: 75%;
+    object-fit: fill;
+	  border: 2px solid rgb(255 255 255 / 0%);
+overflow:hidden;
+  border-radius: 40em;
+      box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+#slideshow_container {
+
+     height: 13em;
+    color: #5f5f5f;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    cursor: pointer;
+    /* border: 2px solid rgb(221 10 10 / 0%); */
+    overflow: hidden;
+
+    box-sizing: border-box;
+    display: block;
+    top: 0;
+    bottom: 0;
+    position: relative;
+	height:auto;
+
+}
+
+
+* {box-sizing: border-box;}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.5em;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.mySlides {display: none;
+
+
+}
+#removeuID{
+    display: inline-flex; 
+	}
+.slide_content {
+    width: 100%;
+ 
+    display: flex;
+}
+.video_slide{
+    width: 23%;
+    margin: auto;
+    margin: 1%;
+    object-fit: cover;
+    cursor: pointer;
+    padding: 1%;
+    box-sizing: content-box;
+    height: fit-content;
+}
+
+.hashtag_slide{
+
+}
+.HashTag_content{
+
+margin: auto;
+
+}
+
+.user_slide{
+width: 15%;
+    overflow: hidden;
+    margin: 1%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5em;
+    padding: 1%;
+    border: 2px solid rgb(152 152 152 / 78%);
+box-sizing: border-box;
+}
+/* Next & previous buttons */
+.prev, .next {
+position: absolute;
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px;}
+}
+
+
+
+
+#user_videos{
+
+    width: 100%;
+    display: grid;
+	padding:10%;
+
+}
+
+
+
+.userVideoArea{
+    border: 1px solid;
+    border-color: #dadddf;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    border-radius: 0.5em;
+    overflow: hidden;
+    padding: 2em;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-bottom: 2%;
+	    max-height: 30%;
+}
+
+
+.videoArea{
+width:50%;
+display: grid;
+}
+
+.videoInfoArea{
+width:50%;
+display: grid;
+color:#CCCCCC;
+
+}
+
+
+.video_delete{
+margin: auto;
+    width: 50%;
+    padding: 2%;
+    margin-top: 2%;
+    background-color: #6495ed00;
+    color: #a5a3a2;
+    border: 1px solid;
+    border-color: #dadddf;
+
+	cursor: pointer;
+
+}
+.video_title{
+font-size:1em;
+padding:.5em;
+	cursor: pointer;
+	
+
+}
+
+
+.video_date{
+    text-align: end;
+	}
+.video_votes{
+    text-align: end;
+}
+.video_views{
+    text-align: end;
+}
+
+.video_edit{
+width:30%;
+margin:auto;
+    padding: 2%;
+		cursor: pointer;
+		margin: auto;
+
+    padding: 2%;
+    margin-top: 2%;
+    background-color: #6495ed00;
+    color: #a5a3a2;
+    border: 1px solid;
+    border-color: #dadddf;
+	display:none;
+}
+
+
+
+
+
+
+.video_player{
+    margin: auto;
+
+	text-align: center;
+  left: 0; right: 0; 
+      width: 100%;
+object-fit: contain !important;
+  border: 2px solid rgb(255 255 255 / 0%);
+overflow:hidden;
+      box-sizing: border-box;
+	      max-height: 300px;
+
+	  /*
+	  
+	      margin: auto;
+
+	text-align: center;
+  left: 0; right: 0; 
+      width: 100%;
+object-fit: cover !important;
+  border: 2px solid rgb(255 255 255 / 0%);
+overflow:hidden;
+  border-radius: 2%;
+      box-sizing: border-box;
+	  
+	  
+	  */
+	  
+	  
+	  /*       margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: contain;
+    border: 2px solid rgb(255 255 255 / 0%);
+    overflow: hidden;
+    border-radius: 2%;
+    box-sizing: border-box;
+    max-height: 500px;
+    
+    width: inherit;
+    align-content: center;
+    display: block;
+	*/
+	  
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+
+
+
+
+
+
