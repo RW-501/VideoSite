@@ -1,0 +1,36 @@
+
+	function share_video_func(xxx, yyyy, zzz, aaaa){
+
+fetch(aaaa)
+  .then(function(response) {
+    return response.blob()
+  })
+  .then(function(blob) {
+
+    var file = new File([blob], "picture.png", {type: 'image/png'});
+    var filesArray = [file];
+
+	var url = "https://www.BlackPeopleMarketplace.com/HoodAwards/video/?v=" + zzz;
+    if(navigator.share && navigator.canShare({ files: filesArray })) {
+
+navigator.share({
+  title:yyyy,
+  text: 'StreetzWatching.com Coming Soon!',
+  files: filesArray,
+  url: url
+
+})
+    .then(() => count_share_func(xxx,url))
+  .catch(error => console.log('Error sharing:', error));
+  }
+
+
+})
+
+ 
+	  console.log('url share  ' +url);
+
+}	
+	
+	
+	

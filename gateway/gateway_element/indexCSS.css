@@ -1,0 +1,275 @@
+
+.reg_text{
+width: 100%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 2%;
+	    cursor: pointer;
+
+}
+
+d{
+color:#CCCCCC;
+
+}
+
+
+.option_text{
+
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5%;
+
+}
+
+.gatwayOptionContainer{
+width: 100%;
+text-align: center;
+    display: inline-grid;
+			padding: 5% 0;
+
+}
+
+.input_titles{
+font-size: 20px;
+width: 92%;
+text-align: left;
+    font-weight:bold;
+padding-left: 4%;
+	padding-right: 4%;
+
+}
+
+.social_button{
+	height: 50px;
+	width: 120px;
+	  background-color:rgba(0,0,0,0.00);
+
+	border: 1px outset;
+    border-color: #454646;
+    border-radius: 3px;
+	overflow: hidden;
+	
+	box-sizing: border-box;
+	    font-weight:bold;
+	line-height: 230%;
+		cursor: pointer;
+
+	margin: 2%;
+	    display: inline-block;
+}
+
+
+
+
+.google_login{
+margin:auto;
+
+padding: 4%;
+}
+
+
+
+
+
+
+
+.lterms{
+font-size: 1.2em;
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+	    color: #ababab;
+
+}
+
+
+
+.lterms a:link {
+	text-decoration: none;
+color: #ffffff;
+}
+.lterms a:hover {
+	text-decoration: none;
+    color:rgba(87,126,255,1.00);}
+.lterms a:visited {
+	text-decoration: none;
+    color:rgba(87,126,255,1.00);}
+.lterms a:active {
+	text-decoration: none;
+    color:rgba(87,126,255,1.00);
+}.lterms a:focus {
+	text-decoration: none;
+    color:rgba(87,126,255,1.00);
+}
+
+.gateway_inputs {
+
+    width: 90%;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-indent: 1px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto 5% auto;
+    background-color: rgba(0,0,0,0.00);
+    /* border: outset; */
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #dadddf;
+    /* border-radius: 3px; */
+    overflow: hidden;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+
+
+
+#popover_pagecover{
+	min-height:100%;
+    width: 100%;
+    background-color: rgb(56 56 56 / 95%);
+    z-index: 5000;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+	display:none;
+}
+#gateway_exit{
+width:100%;
+
+
+
+
+}
+
+#gateway_exit_btn{
+     padding: 3%;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+#gateway_container{
+    /* width: 60%; */
+    max-width: 80%;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	min-height:100%;
+	overflow:hidden;
+	overflow-y: auto;
+	}
+
+
+.gateway_containers{
+	
+    width: 100%;
+    /* background-color: rgb(56 56 56 / 85%); */
+    /* border: 1px solid; */
+    /* border-color: #dadddf; */
+    border-radius: .40em;
+    overflow: hidden;
+    padding: 3%;
+	position: absolute;
+}
+
+.gatwaymainbtns{
+    /* height: 70px; */
+    width: 90%;
+    background-color: rgb(0 0 0);
+    color: #242424;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-color: #2F2F2F;
+    border: 1px solid;
+    border-radius: 40em;
+overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    /* line-height: 250%; */
+    text-align: center;
+    margin: auto;
+    padding: 4%;
+    box-sizing: border-box;
+}
+
+.main_reg_text{
+text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 3%;
+    color: #000000;
+
+}
+
+#p_helper{
+
+    right: 8%;
+    cursor: pointer;
+    /* direction: rtl; */
+    /* display: inline-flex; */
+    position: absolute;
+}
+
+
+.gateway_inputs input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: -internal-light-dark(rgb(0, 0, 0), rgba(0, 0, 0, 0)) !important;
+    color: -internal-light-dark(black, white) !important;
+	}
+
+
+#submit_button{
+cursor:pointer;
+
+
+}
+
+#c1{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    padding: 2%;
+    margin: 3%;
+} #c2{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    padding: 2%;
+    margin: 3%;
+} #c3{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    padding: 2%;
+    margin: 3%;
+} #c4{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    padding: 2%;
+    margin: 3%;
+}
+
+
+
+
